@@ -9,13 +9,6 @@ public class PedirDatos {
         // función para pedir datos al usuario
         Scanner scanner = new Scanner(System.in);
 
-        // print misma linea
-        // println salto de linea
-        // texto consola
-        // variable + scanner(String)
-        System.out.print("Escribe tu nombre completo: ");
-        String nombre = scanner.nextLine();
-
         // next una palabra
         // nextLine toda la linea
         // texto consola
@@ -23,12 +16,29 @@ public class PedirDatos {
         System.out.print("Escribe tu edad: ");
         int edad = scanner.nextInt();
 
+        // Consume el Enter pendiente
+        // No siempre se usa
+        // Si cuando se necesita usar un nextLine(); despues de nextInt();
+        scanner .nextLine();
+
+        // print misma linea
+        // println salto de linea
+        // texto consola
+        // variable + scanner(String)
+        System.out.print("Escribe tu nombre completo: ");
+        String nombre = scanner.nextLine();
+
         System.out.print("Escribe tu altura: ");
         double altura = scanner.nextDouble();
+
+        // boolean
+        System.out.print("Eres estudiante? (true/false): ");
+        boolean estudiante = scanner.nextBoolean();
 
         System.out.println("Hola " + nombre);
         System.out.println("Tienes " + edad + " años");
         System.out.println("Altura: " + altura);
+        System.out.println("Estudiante: " + estudiante);
 
         // cerrar scanner al finalizar
         scanner.close();
