@@ -16,10 +16,9 @@ public class PedirDatos {
         System.out.print("Escribe tu edad: ");
         int edad = scanner.nextInt();
 
-        // Consume el Enter pendiente
         // No siempre se usa
         // Si cuando se necesita usar un nextLine(); despues de nextInt();
-        scanner .nextLine();
+        scanner .nextLine(); // Consume el Enter pendiente
 
         // print misma linea
         // println salto de linea
