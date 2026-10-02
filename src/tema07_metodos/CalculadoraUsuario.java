@@ -39,12 +39,12 @@ public class CalculadoraUsuario {
 
         int multiplicacion = multiplicar(numero1, numero2);
 
-        double dividision = dividir(numero1, numero2);
+        double division = dividir(numero1, numero2);
 
         System.out.println("Suma: " + suma);
         System.out.println("Resta: " + resta);
         System.out.println("Multiplicacion: " + multiplicacion);
-        System.out.println("Division: " + dividir);
+        System.out.println("Division: " + division);
 
     }
 }
