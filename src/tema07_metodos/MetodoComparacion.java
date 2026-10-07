@@ -1,5 +1,6 @@
 package tema07_metodos;
 
+// Ejercicio: devolver el resultado de una comparacion directamente.
 public class MetodoComparacion {
 
     // metodo que devuelve un boolean si numero1 es mayor a numero2
@@ -12,10 +13,11 @@ public class MetodoComparacion {
 
     public static void main(String[] args) {
 
-        // guardamos resultado en una variable
+        // guardamos resultado en una variable (15 > 30 es false)
         boolean resultado = esMayor(15, 30);
 
         // llamamos el resultado en un print
+        // Salida esperada: Es mayor?: false
         System.out.println("Es mayor?: " + resultado);
 
     }

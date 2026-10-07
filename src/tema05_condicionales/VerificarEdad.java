@@ -10,6 +10,8 @@ public class VerificarEdad {
         System.out.println("Ingresa tu edad: ");
         int edad = scanner.nextInt();
 
+        // if / else: ejecuta un bloque u otro según la condición.
+        // Si la condición es true entra al if; si es false, entra al else.
         if (edad >= 18) {
             System.out.println("Eres mayor de edad.");
         } else {

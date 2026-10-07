@@ -3,6 +3,9 @@ package tema08_arrays;
 import java.util.Scanner;
 
 public class ArrayScannerMayorPares {
+    // Algoritmo: mayor entre los números que cumplen una condición (los pares).
+    // Aquí no se puede empezar con numeros[0] porque podría ser impar,
+    // por eso se usa una bandera (encontrado) para marcar el primer par.
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -13,14 +16,17 @@ public class ArrayScannerMayorPares {
 
         int[] numeros = new int[cantidad];
 
+        // bandera: indica si ya apareció algún número par
         boolean encontrado = false;
 
+        // llenado del array con datos del usuario
         for (int i = 0; i < numeros.length; i++) {
             System.out.print("Numero " + (i + 1) + ": ");
             int numero = scanner.nextInt();
             numeros[i] = numero;
         }
 
+        // este 0 es solo un valor de arranque; su valor real lo decide el primer par
         int mayorPar = 0;
 
         for (int numero : numeros) {
@@ -32,7 +38,7 @@ public class ArrayScannerMayorPares {
                     // se convierte en el primer candidato
                     // basta que sea par aunque sea negativo
                     mayorPar = numero;
-                    // avisamos a la variable que se encontro un numero par
+                    // avisamos a la variable que se encontró un número par
                     encontrado = true;
                 } else if (numero > mayorPar) {
                     // Comparamos los siguientes pares
@@ -43,7 +49,7 @@ public class ArrayScannerMayorPares {
         }
 
         // Según el estado de encontrado, mostramos el resultado
-        // si el aviso sigue ne false ejecuta el else
+        // si el aviso sigue en false ejecuta el else
         if (encontrado) {
             System.out.println("Mayor par: " + mayorPar);
         } else {

@@ -2,6 +2,8 @@ package tema07_metodos;
 
 import java.util.Scanner;
 
+// Ejercicio: pasar a un metodo void un String leido con Scanner.
+// Practica el flujo completo: leer dato -> guardarlo en variable -> usarlo como argumento.
 public class MetodoSaludoUsuario {
 
     // recibe como argumento un string

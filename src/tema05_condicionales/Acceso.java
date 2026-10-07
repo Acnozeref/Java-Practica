@@ -13,7 +13,10 @@ public class Acceso {
         System.out.println("Tienes identificador?: ");
         boolean identificador = scanner.nextBoolean();
 
-        // se puede simplificar pero se deja si para entender el contexto
+        // Con && deben cumplirse las dos condiciones para entrar al if.
+        // Se puede simplificar a: edad >= 18 && identificador
+        // (un boolean ya es true o false, no hace falta compararlo con == true).
+        // Se deja completo para entender mejor el contexto.
         if (edad >= 18 && identificador == true) {
             System.out.println("Acceso permitido");
         } else {

@@ -1,5 +1,6 @@
 package tema07_metodos;
 
+// Ejercicio: metodo void que decide y muestra un mensaje con if/else en vez de devolver un valor.
 public class MetodoValidarEdad {
 
     // este metodo no pide retornar un tipo especifico
@@ -16,6 +17,7 @@ public class MetodoValidarEdad {
 
     public static void main (String[] args) {
 
+        // 15 < 18. Salida esperada: Eres menor de edad
         validarEdad(15);
 
     }
