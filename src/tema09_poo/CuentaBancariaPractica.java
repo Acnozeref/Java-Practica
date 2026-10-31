@@ -47,7 +47,7 @@ public class CuentaBancariaPractica {
         // Llamando el metodo 'depositar' /objeto.depositvar()/
         cuenta01.depositar(50.00);
         System.out.println("Saldo despues del depostivo: " + cuenta01.getSaldo());
-        // Llamando el metodo 'returar' /objeti.retirar()/
+        // Llamando el metodo 'retirar' /objeto.retirar()/
         cuenta01.retirar(30.00);
         System.out.println("Saldo despues del retiro: " + cuenta01.getSaldo());
         // Prueba de logica en el metodo 'retirar'

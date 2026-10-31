@@ -1,25 +1,20 @@
 package tema09_poo;
 // Encapsulamiento en Java
 public class CuentaBancaria {
-    // tipo de valores
-    // private => protege los atributos al-
-    // intentar modificarlos desde otra clase-
-    // del mismo paquete.
+    // Atributo protegido: nadie fuera de esta clase puede cambiarlo directamente.
     private double saldo;
 
-    // constructor
+    // Constructor
     CuentaBancaria(double saldo) {
         this.saldo = saldo;
     }
 
-    // getter => consultar
-    // se puede llamar
+    // Getter: Permite a otras clases consultar el saldo de forma segura
     public double getSaldo() {
         return saldo;
     }
 
-    // setgetter => modificar
-    // se puede llamar
+    // Setter: Permite modificar el saldo, pero aplicando reglas de validación.
     public void setSaldo(double saldo) {
         if (saldo >= 0) {
             this.saldo = saldo;

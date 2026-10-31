@@ -4,6 +4,7 @@ public class Desarrollador extends Empleado {
 
     private String lenguaje;
 
+    // super siempre va primero al usarlo
     public Desarrollador(String nombre, String lenguaje) {
         super(nombre);
         this.lenguaje = lenguaje;

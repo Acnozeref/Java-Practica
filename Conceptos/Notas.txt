@@ -1,0 +1,40 @@
+Lo que he aprendido de poo
+
+- Toda clase es un molde para crear objetos
+
+- A cada molde se le asignan los parametros a trabajar
+
+- Se crean constructores para que, a la hora de instanciar,
+indiquemos ahi mismo en new que parametros usara dicho objeto
+
+- Se puede asignar varios constuctores a la clase dependiendo de que
+parametros trabajados se pondran o no.
+
+- Encapsulamiento permite trabajar con parametros pero bajo protecciones
+estrictas o condicionadas, por ejemplo al crear una cuenta de banco y crear una
+cuenta con saldo 0 negativo, por lo tanto se tiene que crear con 1 o mas,
+se pueden modificar y acceder a dicho datos del objeto pero de manera controlada.
+
+- La herencia permite crear una clsae padre que es decir puede contener atributod y metodos
+que clases hijan pueden heredar, evita sobreescribir codigo y usarlo, eso no quiere decir
+que se trabajen estrictamente con los parametros o metodos, tambien se pueden crear y usar los propios.
+
+- Polimorfismo indica que al crear clases hijas pueden sobreescribir el mismo metodo pero
+con diferente comportamiento haciendo la misma referencia Padre pero el comportamiento lo indica la hija
+asi, al llamar al mismo metodo sus comportamiento seran disintos.
+
+- Abstaccion, oculta operaciones que no hace falta ver, es decir, en unas clases realizar la logica
+para despues llamar en objetos lo solicitado.
+
+- Interfaces establece un contrato de clases hijas, es decir, que todas las clases deben implementar
+ciertos metodos mas no como se ejecutan, con ayuda de @override
+
+- Composicion indica que se pueden usar objetos de otras clases, algo asi como colaborar entre clsaes,
+crean un contructo pero dentro de el esta la referencia de al clase a llamar para objetos.
+
+- Super se trata de herencias, casi lo mismo que composicion solo que super se usa al crear herencias.
+
+- Composicion 'tiene un'. Un coche tiene un moto
+- Super es un, te permite usar elementos de una clase padre
+
+- Static indica que un miembro pertenece a la clase
