@@ -277,3 +277,10 @@ Al finalizar este tema, se han estudiado los siguientes conceptos:
 **Nota de estudio:** las prácticas están separadas por clases para facilitar su consulta y evitar modificar ejercicios anteriores. El proyecto integrador es independiente de las prácticas individuales y sirve para comprobar cómo se combinan varios conceptos.
 
 No es necesario memorizar todo de una vez. Esta nota funciona como índice de consulta para volver a cada concepto cuando lo necesites.
+
+---
+
+## Siguiente tema
+
+[`tema10_excepciones`](tema10_excepciones.md) — manejo de excepciones:
+`try`/`catch`/`finally`, `throw`, `throws` y excepciones personalizadas.
