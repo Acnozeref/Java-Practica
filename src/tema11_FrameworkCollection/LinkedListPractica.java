@@ -8,7 +8,7 @@ public class LinkedListPractica {
 
         LinkedList<String> nombres = new LinkedList<>();
 
-        // metodos alternos
+        // Métodos alternos:
             // nombres.addFirst("Luis");
             // nombres.addLast("Pedro");
             //

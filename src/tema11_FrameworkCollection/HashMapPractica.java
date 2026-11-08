@@ -12,12 +12,12 @@ public class HashMapPractica {
             Key (clave).
             Value (valor).
 
-         Metodos comunues:
-            put() - Agrega clave y su valor.
-            get() - Obtiene el valor mediante clave.
+         Métodos comunes:
+            put() - Agrega una clave y su valor.
+            get() - Obtiene el valor mediante la clave.
             remove() - Elimina una clave y su valor.
-            containsKey() - Comprueba si existe uan clave.
-            size() - Devuelve la cantida de pares.
+            containsKey() - Comprueba si existe una clave.
+            size() - Devuelve la cantidad de pares.
         */
         HashMap<String, Integer> personas = new HashMap<>();
 
@@ -25,7 +25,7 @@ public class HashMapPractica {
         Nota:
             Las claves no se duplican, ejemplo
             personas.put("Kevin", 30);
-            Kevin ya existe por lo que su valor cambia a 30/
+            Kevin ya existe, por lo que su valor cambia a 30.
 
          */
         personas.put("Kevin", 27);
@@ -34,12 +34,12 @@ public class HashMapPractica {
         personas.put("Luis", 35);
         personas.put("Adrian", 29);
 
-        // Consulta el valor de la llave "Danna" (16)
+        // Consulta el valor de la clave "Danna" (16)
         System.out.println(personas.get("Danna"));
-        // Consulta si existe la llave "Ana" (bool)
+        // Consulta si existe la clave "Ana" (bool)
         System.out.println(personas.containsKey("Ana"));
 
-        // Impresion General
+        // Impresión general
         System.out.println(personas);
 
     }

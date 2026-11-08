@@ -20,17 +20,17 @@ public class ArrayListBuscar {
         System.out.println(nombres.contains("Danna"));
 
         // indexOf(object)
-        // devuelve la posicion de un elemento, devuelve indice.
+        // devuelve la posición de un elemento; devuelve un índice.
         System.out.println(nombres.indexOf("Ana"));
 
 
         // indexOf(object)
-        // devuelve la primera coincidencia, devuelve indice.
+        // devuelve la primera coincidencia; devuelve un índice.
         System.out.println(nombres.indexOf("Carlos"));
         // 1
 
         // lastIndexOf(object)
-        // devuelve la ultima posicion de un elemento, devuelve indice.
+        // devuelve la última posición de un elemento; devuelve un índice.
         System.out.println(nombres.lastIndexOf("Carlos"));
         // 5
     }

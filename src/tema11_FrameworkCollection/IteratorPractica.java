@@ -20,31 +20,36 @@ public class IteratorPractica {
         Iterator<String> iterator = nombres.iterator();
 
         /*
-        Metodos principales:
-            iterator() - obtiene el iterator.
+        Métodos principales:
+            iterator() - obtiene el iterador.
             hasNext() - comprueba si hay otro elemento.
             next() - obtiene el siguiente elemento.
-            remove() - Elimina el elemento actual.
+            remove() - elimina el elemento actual.
 
         */
 
-        // Recorre la lista utilizando while
-        // iterator obtiene el iterator de la lista.
-        // has.Next() comprueba si quedan elementos.
+        // Recorre la lista utilizando while.
+        // iterator() obtiene el iterador de la lista.
+        // hasNext() comprueba si quedan elementos.
         while (iterator.hasNext()) {
             // Imprime cada elemento con next().
             System.out.println(iterator.next());
         }
 
-        // Ejemplo de uso:
-        // Permite eliminar elementos durante el recorrido de form
-        while (iterator.hasNext()) {
+        // Para eliminar durante el recorrido se necesita un iterador nuevo,
+        // porque el anterior ya quedó agotado.
+        Iterator<String> iteratorEliminar = nombres.iterator();
 
-            String nombre = iterator.next();
+        while (iteratorEliminar.hasNext()) {
+
+            String nombre = iteratorEliminar.next();
 
             if (nombre.equals("Luis")) {
-                iterator.remove();
+                iteratorEliminar.remove();
             }
         }
+
+        // La lista ya no contiene a "Luis".
+        System.out.println(nombres);
     }
 }
