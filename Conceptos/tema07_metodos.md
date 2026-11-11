@@ -18,7 +18,7 @@ programación orientada a objetos.
 | Firma | Nombre + lista de parámetros; identifica al método. |
 | Tipo de retorno | Tipo del valor que devuelve (`int`, `double`, `boolean`, `String`). |
 | `void` | El método no devuelve nada; solo ejecuta acciones (imprimir). |
-| Parámetro | Variable declarada entre paréntesis para recibir un dato. |
+| Parámetro | Variable declarada entre paréntesis para recibir un contenido. |
 | Argumento | Valor real que se pasa al llamar al método. |
 | `return` | Devuelve un valor y termina el método en ese punto. |
 | Alcance (*scope*) | Una variable local solo existe dentro de su bloque `{ }`. |
@@ -95,7 +95,7 @@ sí. Para facilitar el estudio se agrupan en familias.
 | Clase | Entrada | Idea principal |
 |---|---|---|
 | `MetodoSaludoUsuario` | nombre | Leer → guardar en variable → pasar como argumento. |
-| `MetodoEdadUsuario` | año de nacimiento | El dato leído se usa como argumento de `calcularEdad`. |
+| `MetodoEdadUsuario` | año de nacimiento | El contenido leído se usa como argumento de `calcularEdad`. |
 | `CalculadoraUsuario` | dos números | `main` pide datos; los métodos calculan y devuelven. |
 
 ### 2.5 Pares didácticos (misma idea, dos enfoques)

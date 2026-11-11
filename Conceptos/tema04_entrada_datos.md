@@ -35,7 +35,7 @@ tener valores fijos y pase a depender de la entrada.
 - **`next()` vs `nextLine()`**: `next()` corta en el primer espacio
   (`"Kevin Perez"` → `"Kevin"`); `nextLine()` devuelve la línea completa.
 - **El Enter pendiente**: `nextInt()`, `nextDouble()` y `nextBoolean()` leen el
-  dato pero **dejan el Enter en el buffer**. Si justo después se llama a
+  contenido pero **dejan el Enter en el buffer**. Si justo después se llama a
   `nextLine()`, este lee esa línea vacía. Por eso se añade
   `scanner.nextLine();` para "limpiar" el Enter.
 - **`print` en los mensajes**: el mensaje queda en la misma línea y el usuario
@@ -55,7 +55,7 @@ tener valores fijos y pase a depender de la entrada.
 | `next()` | Una palabra | `Kevin` | (corta en el espacio) |
 | `nextLine()` | Línea completa | `Kevin Pérez` | — |
 
-Si el dato no coincide con el método, Java lanza `InputMismatchException`.
+Si el contenido no coincide con el método, Java lanza `InputMismatchException`.
 
 ---
 
@@ -119,7 +119,7 @@ En IntelliJ IDEA: abrir el archivo, pulsar ▶ y escribir las respuestas en la
 consola de ejecución.
 
 > Importante: no se puede ejecutar solo con ▶ sin escribir nada; el programa se
-> queda esperando cada dato.
+> queda esperando cada contenido.
 
 ---
 

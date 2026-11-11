@@ -29,7 +29,7 @@
 - Diferencia entre arrays y colecciones.
 - Interfaces principales: `List`, `Set` y `Map`.
 - Implementaciones: `ArrayList`, `LinkedList`, `HashSet` y `HashMap`.
-- Uso de genéricos para indicar el tipo de dato (`ArrayList<String>`).
+- Uso de genéricos para indicar el tipo de contenido (`ArrayList<String>`).
 - Importación de colecciones desde `java.util`.
 
 **Clases relacionadas:**
