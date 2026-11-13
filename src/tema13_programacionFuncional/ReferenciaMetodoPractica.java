@@ -12,7 +12,7 @@ public class ReferenciaMetodoPractica {
         Function<String, Integer> longitud =
             String::length;
 
-        mostrar.accept("Soy un referencia.");
+        mostrar.accept("Soy una referencia.");
         System.out.println(longitud.apply("Hamburguesa"));
     }
 }
