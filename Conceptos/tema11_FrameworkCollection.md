@@ -211,11 +211,4 @@ Al finalizar este tema, se han estudiado los siguientes conceptos:
 
 ## Siguiente tema
 
-Este es el último tema con código en el proyecto. Algunos temas recomendados para continuar son:
-
-- Genéricos y colecciones tipadas con mayor profundidad.
-- `Streams` y expresiones lambda.
-- Pruebas unitarias con JUnit.
-- Maven o Gradle para gestionar dependencias.
-- Persistencia con JDBC y bases de datos.
-- Desarrollo backend con Spring Boot.
+[`tema12_generics`](tema12_generics.md) — genéricos: clases y métodos genéricos, restricciones con `extends`, wildcards (`?`, `? extends`, `? super`) y un almacén genérico integrador.

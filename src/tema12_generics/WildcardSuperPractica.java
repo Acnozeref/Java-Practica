@@ -14,14 +14,14 @@ public class WildcardSuperPractica {
     }
 
     public static void main(String[] args) {
-        // Lista vacia
+        // Lista vacía
         List<Integer> edades = new ArrayList<>();
         List<Number> numeros = new ArrayList<>();
 
-        // llamamos al metodo para injectar parametros
+        // Llamamos al método para inyectar parámetros
         agregarEdades(edades);
         agregarEdades(numeros);
-        // salida a consola
+        // Salida a consola
         System.out.println(edades);
         System.out.println(numeros);
     }

@@ -14,7 +14,7 @@ public class ConsultasGenericas {
 
         double suma = 0;
         // Utilizamos doubleValue() porque Number puede
-        // representar distintos tipos numéricos,
+        // representar distintos tipos numéricos.
         for (Number numero : numeros) {
             suma += numero.doubleValue();
         }

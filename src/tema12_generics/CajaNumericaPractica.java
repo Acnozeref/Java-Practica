@@ -20,7 +20,7 @@ public class CajaNumericaPractica <T extends Number> {
 
         CajaNumericaPractica<Integer> entero = new CajaNumericaPractica<>();
         CajaNumericaPractica<Double> decimal = new CajaNumericaPractica<>();
-        // No permitido (Intelij marca el error)
+        // No permitido (IntelliJ marca el error)
         // CajaNumericaPractica<String> texto = new CajaNumericaPractica<>();
 
         entero.setNumero(26);

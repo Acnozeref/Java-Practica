@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Almacen <T> {
-    // Instanciar objetos en base a un arrayList.
+    // Instanciar una lista para almacenar los productos.
     private List<T> productos = new ArrayList<>();
 
     public void setProductos(List<T> productos) {

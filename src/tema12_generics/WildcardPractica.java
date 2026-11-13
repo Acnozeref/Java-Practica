@@ -6,7 +6,7 @@ import java.util.List;
 // Sirven para trabajar con tipos genéricos desconocidos o variables.
 public class WildcardPractica {
     // List<?> acepta listas de distintos tipos.
-    // sub tema extends, para permitir ciertos tipos.
+    // El subtema extends permite aceptar ciertos tipos.
     public static void mostrarLista(List<? extends Number> lista) {
         // permite recorrer sus elementos sin conocer su tipo concreto.
         // for (Object elemento : lista) { para cualquier tipo
